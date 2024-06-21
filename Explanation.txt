@@ -1,3 +1,7 @@
+GO AND CHECK IN CHATGPT THEY GIVE FULL EXPLANATION
+
+
+
 $(function() {
   $('input[name="datetimes"]').daterangepicker({
     timePicker: true,
