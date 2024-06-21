@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8"/>
+    <title>Data Picker using JQuery UI</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.3/themes/base/jquery-ui.min.css">
+    <style>
+        #datepicker{
+            /*background-color: antiquewhite;*/
+            margin-left: 2rem;
+            width: 150px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    Date Picker<input type="text" id="datepicker">
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.3/jquery-ui.min.js"></script>
+    <script>
+        $(function () {
+            $('#datepicker').datepicker();
+        });
+    </script>
+</body>
+</html>
